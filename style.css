@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* fonts */
+.hero-font {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hero-b {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.body-font {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.body-header {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 3vh 0;
+  margin-bottom: 10px;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Hero */
+.hero {
+  background-image: url(".//images/awesomelawn.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.hero-logo {
+  width: 15vh;
+}
+
+.hero-p {
+  max-width: auto;
+  margin: 10rem 0;
+}
+
+.hero-p > h2 {
+  margin: 25px 0;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(238, 255, 223);
+}
+
+.btn {
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 0 10px hsl(208, 11%, 55%, 0.2);
+  padding: 5px;
+  width: 12vh;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.btn-main {
+  background-color: #1aa549;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 10px hsl(208, 11%, 55%, 0.2);
+  border-radius: 30px;
+  padding: 15px;
+  width: 30vh;
+  margin-top: 15rem;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.hero-image {
+  width: 40vh;
+  padding: 30px;
+}
+
+/* Parent element for cards */
+.card-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid white;
+  box-shadow: 0 0 10px hsl(208, 11%, 55%, 0.2);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 5vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 38vh;
+}
+
+.card-img {
+  background-repeat: no-repeat;
+  width: 30vh;
+  margin-top: 35px;
+  border-radius: 10px;
+}
+
+.card > h2 {
+  margin-top: 5vh;
+}
+
+.btm-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30vh;
+}
+
+.cardbtm {
+  border: 1px solid white;
+  box-shadow: 0 0 10px hsl(208, 11%, 55%, 0.2);
+  border-radius: 10px;
+  margin-bottom: 5vh 0;
+  padding: 20px;
+  background-color: white;
+  width: 38vh;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Footer */
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.btn-mainft {
+  background-color: #1aa549;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 10px hsl(208, 11%, 55%, 0.2);
+  border-radius: 30px;
+  padding: 15px;
+  width: 30vh;
+  margin-top: 20px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.hero-logo-ft {
+  margin-top: 25vh;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(354deg)
+    brightness(103%) contrast(103%);
+  width: 20vh;
+  margin-left: 8px;
+}
+
+.icn {
+  width: 15px;
+  margin-left: 15px;
+}
+
+.ft-txt {
+  margin-left: 15px;
+}
+
+.column-mid1 {
+  line-height: 2.6;
+  margin-left: 3rem;
+}
+
+.column-mid {
+  line-height: 2.6;
+  margin-left: 3rem;
+}
+
+/* icons */
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin: 2rem 0;
+}
